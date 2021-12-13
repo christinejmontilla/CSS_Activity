@@ -1,0 +1,108 @@
+
+    table, td {
+        border: 1px solid brown;
+        border-collapse: collapse;
+}
+
+    td {
+        text-align: center;
+        font-family: Papyrus, Times, serif;
+        font-size: 17px;
+        font-weight: bold;
+}
+    th {
+        border-bottom-style: hidden;
+}
+    h1 {
+        text-align: center;
+        color: #818589;
+        border: 2px solid brown;
+        border-radius: 8px;
+        padding: 5px;
+        background-color: floralwhite;
+}
+    h3 {
+        text-align:center;
+        font-family: 'Lucida Sans', Geneva, Verdana, sans-serif;
+        letter-spacing: 10px;
+}
+    .exo1 {
+        background-color: #F9F6F2;
+        color: brown;
+}
+    .exo2 {
+         background-color: #F7EDE2;
+        color: green;
+}
+    .exo3 {
+        background-color: #E7D7CB;
+        color: gray;
+}
+    body, html {
+        height: 100%;
+        margin: 0;
+} 
+    .style1, .style2, .style3, .style4, .style5, .style6, .style7 {
+        position: relative;
+        opacity: 0.65;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover; 
+}
+    .style1 {
+        background-image: url("Image/Untitled\ design\ \(1\).png");
+        min-height: 100%;
+}  
+    .style2 {
+        background-image: url("Image/chanyeol.png");
+        min-height: 400px;
+} 
+    .style3 {
+        background-image: url("Image/baekhyun.jpg");
+        min-height: 400px;
+}  
+    .style4 {
+        background-image: url("Image/kaii.jpg");
+        min-height: 400px;
+}
+    .style5 {
+        background-image: url("Image/sehun.jpg");
+        min-height: 400px;
+}  
+    .style6 {
+        background-image: url("Image/suho.jpg");
+        min-height: 400px;
+}
+    .style7 {
+        background-image: url("Image/xiuminn.png");
+        min-height: 400px;
+}    
+    .hey {
+        color: #777;
+        background-color:beige;
+        text-align:center;
+        padding:50px 80px;
+        text-align: justify;
+}
+    .caption {
+        position: absolute;
+        left: 0;
+        top: 50%;
+        width: 100%;
+        text-align: center;
+} 
+    .caption span.border {
+        background-color: #111;
+        color: #fff;
+        padding: 18px;
+        font-size: 25px;
+        font-family: 'Times New Roman', serif;
+        letter-spacing: 10px;
+} 
+    /* Turn off parallax scrolling for tablets and phones */
+    @media only screen and (max-device-width: 1024px) {
+        .style1, .style2, .style3, .style4, .style5, .style6, .style7 {
+        background-attachment: scroll;
+}
+}
